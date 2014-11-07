@@ -1,5 +1,5 @@
 %define		svnrev	72
-%define		rel		1
+%define		rel	2
 Summary:	Wrapper script for checking out and updating source code from multiple SCM repository locations
 Name:		gclient
 Version:	0.3.1
@@ -13,7 +13,7 @@ Source0:	%{name}-%{svnrev}.tar.bz2
 URL:		http://code.google.com/p/gclient/
 Requires:	python
 Requires:	python-modules
-Requires:	python-pymox
+Requires:	python-mox
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
